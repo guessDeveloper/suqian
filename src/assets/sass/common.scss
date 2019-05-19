@@ -1,0 +1,69 @@
+$main:#C8AC48;
+$banner-font-color:#fff;
+$min-width:1200px;
+$btn-width:260px;
+$btn-height:60px;
+$placeholder:#999999;
+$content-title-color:#333333;
+$content-title-bottom-cl:#C8C8C8;
+$contact-input-border:#C8C8C8;
+$error:#F85252;
+$tip:#28BBE0;
+@mixin transition {
+    -webkit-transition-property:all;
+    -moz-transition-property:all;
+    -ms-transition-property:all;
+    transition-property:all;
+//    -moz-transition: all .5s;
+//    -ms-transition: all .5s;
+//    -webkit-transition: all .5s;
+//    transition: all .5s;
+    
+    -webkit-transition-duration:.5s;
+    -ms-transition-duration:.5s;
+    -moz-transition-duration:.5s;
+    transition-duration:.5s;
+}
+@mixin transitionTime($x) {
+    -webkit-transition-property:all;
+    -moz-transition-property:all;
+    -ms-transition-property:all;
+    transition-property:all;
+//    -moz-transition: all .5s;
+//    -ms-transition: all .5s;
+//    -webkit-transition: all .5s;
+//    transition: all .5s;
+    
+    -webkit-transition-duration:$x;
+    -ms-transition-duration:$x;
+    -moz-transition-duration:$x;
+    transition-duration:$x;
+}
+@mixin backSize($x) {
+    -webkit-background-size: $x;
+    -moz-background-size: $x;
+    -ms-background-size: $x;
+    background-size: $x;
+}
+
+@mixin transitionDelay($x) {
+    transition-delay: $x;
+    -moz-transition-delay: $x;
+    /* Firefox 4 */
+    -webkit-transition-delay: $x;
+    /* Safari 和 Chrome */
+    -o-transition-delay: $x;
+    /* Opera */
+}
+@mixin btnColor(){
+      background: -webkit-linear-gradient(0deg,rgba(187,152,26,1),rgba(255,210,48,1));
+    background: -o-linear-gradient(0deg,rgba(187,152,26,1),rgba(255,210,48,1));
+    background: -ms-linear-gradient(0deg,rgba(187,152,26,1),rgba(255,210,48,1));
+    background: linear-gradient(0deg,rgba(187,152,26,1),rgba(255,210,48,1));
+}
+
+/*首页*/
+
+$title-color:$main;
+$title-tip-color:#C8C8C8;
+$about-bc:#2f4671;
