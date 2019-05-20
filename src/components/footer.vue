@@ -360,7 +360,7 @@
            @include transition;
             &:hover{
                 opacity: 1;
-                background:$main;
+                background-color:$main;
                 color:#fff;
                 border-color:$main;
             }

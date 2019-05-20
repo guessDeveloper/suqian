@@ -14,7 +14,7 @@
                               <div class="title-top">诉讼融资</div>
                               <div class="title-bottom">Litigation financing</div>
                           </div>
-                          <div class="cont">Pre Suit 通过智能高效的前期案件筛选，为部分案件提供第三方诉讼资助，对企业涉诉案件进行投资，投资款项包括但不限于诉讼费、财产保全费、鉴定费、公告费、评估费等等，使企业实现 0 成本享受诉讼权益。Pre Suit 待客户收到款项后按一定比例收取费用。
+                          <div class="cont">PreSuit 通过智能高效的前期案件筛选，为部分案件提供第三方诉讼资助，对企业涉诉案件进行投资，投资款项包括但不限于诉讼费、财产保全费、鉴定费、公告费、评估费等等，使企业实现 0 成本享受诉讼权益。PreSuit 待客户收到款项后按一定比例收取费用。
                           <p>(该服务仅面向已购买第一或第二项服务的用户开放)</p>
                           </div>
                           <button class="btn" @click="contactShow"><div>预约体验PreSuit</div>

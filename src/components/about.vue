@@ -4,7 +4,7 @@
         <div class="about-content" :class="{move:contentShow}">
             <div class="title-box">
                 <div class="title">关于我们</div>
-                <div class="bottom">About us</div>
+<!--                <div class="bottom">About us</div>-->
                 
             </div>
             <div class="con">
