@@ -14,7 +14,7 @@
                               <div class="title-top">极速高效常法服务</div>
                               <div class="title-bottom">EXTREMELY FAST, EFFICIENT ADN EFFICIENT SERVICE</div>
                           </div>
-                          <div class="cont">为了满足企业更多的常规需求，Pre Suit 同样引入了常法顾问服务。但我们更高效、更及时、更能满足您对每一项需求的期待;此外，我们也将起草律师函、催款函、律师见证等业务明确纳入常法服务的范畴，有效避免了对用户的二次收费。
+                          <div class="cont">为了满足企业更多的常规需求，PreSuit同样引入了常法顾问服务。但我们更高效、更及时、更能满足您对每一项需求的期待；此外，我们也将起草律师函、催款函、律师见证等业务明确纳入常法服务的范畴，有效避免了对企业的二次收费。
                           </div>
                           <button class="btn" @click="contactShow"><div>预约体验PreSuit</div>
                  <div></div>
@@ -23,16 +23,16 @@
                  </section>
                  <section class="case">
                      <div class="title-box">
-                        <div class="title">使用场景列举</div>
-                        <div class="bottom">Use scene enumeration</div>
+                        <div class="title">服务事项</div>
+<!--                        <div class="bottom">Use scene enumeration</div>-->
                     </div>
                     <div class="caseOne" style="margin-bottom:160px;" :class="{active:caseOne}">
                         <div class="left">
                             <div class="title">
                                 No.1
                             </div>
-                            <div class="tip">人工智能+合同审批</div>
-                            <div class="case-content">Pre Suit 应用了标准化的合同审批流程，根据不同企业的行业特征及实际需要，在合同批阅过程中为企业定制标准 化合同模版，累积形成企业的标准合同库。而对于交易对手提供的非标合同，则从风险角度由人工智能+专业人士 双重批注，将风险类型和风险等级明确提示给企业用户。
+                            <div class="tip">合同审阅</div>
+                            <div class="case-content">PreSuit应用了标准化的合同审批流程，为企业定制标准化合同模版；对企业提供的非标合同，则从风险类型和风险等级明确提供专业修改意见
                             </div>
                         </div>
                         <div class="right">
@@ -49,7 +49,7 @@
                                 No.2
                             </div>
                             <div class="tip">法律咨询</div>
-                            <div class="case-content" style="width:387px;">Pre Suit 认真对待企业用户的每一次提问，为保证回复的高效性，我们承诺普通咨询 2 小时内回复、疑难咨询 24 小时内回复;为保证回复的准确度，我们持续整合公司法、劳动法、税法、侵权等领域的专家;为保证回复的完整性，我们将回复先以书面形式提交给客户，方便企业高管和各部门间同步获取信息，随后我们将在客户方便的时段进行电话回访
+                            <div class="case-content" style="width:387px;">PreSuit认真对待企业用户的每一次提问，为保证回复的高效性，我们承诺普通咨询2小时内回复、疑难咨询24小时内回复；为保证回复的准确度，我们持续整合公司法、劳动法、税法、侵权等领域的专家
                             </div>
                          </div>
                     </div>
@@ -59,7 +59,7 @@
                                 No.3
                             </div>
                             <div class="tip">客户资料私有化存档</div>
-                            <div class="case-content">服务期内产生的所有用户数据，都将为 Pre Suit 高度珍视。我们将您的资料妥善保管，便于您随时查看，了解企业成长的痕迹，同时我们将通过服务数据挖掘企业所在行业/地区的高频风险点，定时向企业用户推送有关的法律更新和培训定制咨询
+                            <div class="case-content">服务期内产生的所有用户数据，都将为PreSuit高度珍视。我们将企业资料妥善保管，记录企业成长轨迹，便于企业随时查看；同时我们不断通过累积的数据挖掘出企业所在行业/地区的高频风险点，定时向企业推送有关的法律资讯
                             </div>
                         </div>
                         <div class="right">
@@ -455,7 +455,7 @@
                             font-size: 14px;
                             color: #666;
                             text-align: justify;
-                            text-align-last: right;
+                            text-align-last: left;
                             line-height: 35px;
                         }
                     }

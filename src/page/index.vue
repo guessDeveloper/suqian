@@ -8,8 +8,10 @@
        <section class="special">
            <div class="title-box">
                 <div class="title">Pre Suit正在为越来越多的企业用户提供<br>含数据支持的最优诉前决策，实现诉讼净利润</div>
+<!--
                 <div class="bottom">Pre Suit is providing data support for more and more enterprise users<br>
 Optimal pre-trial decision-making to achieve litigation net profit</div>
+-->
                 <div class="arrow"></div>
             </div>
             <div class="special-content">
@@ -19,7 +21,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
     </div>
                     <div class="item-content">
                         <div class="name">诉前分析报告</div>
-                        <div class="dis">通过类案检索分析诉讼趋势、预测判赔金额;帮助企业用户筛选可诉且可执行的案件并从中找到已被全国公认的代理策略。通过深度挖掘诉讼参与者的历史数据，形成法官、代理人及客户的精准自画像。
+                        <div class="dis">通过类案检索分析诉讼趋势、预测判赔金额；通过深度挖掘诉讼参与者的历史数据，形成法官、代理人及客户的精准自画像；从而有效帮助企业提前预知个案诉讼价值以及可行的诉讼策略。
                         </div>
                     </div>
                 </div>
@@ -27,7 +29,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                    
                      <div class="item-content">
                     <div class="name">诉前资源配置</div>
-                    <div class="dis">审理地区、审判人员、代理人均是造成案件结果不确定性的关键因素，而降低不确定性、提高胜诉率的最直接办法是在本团队的基础上，针对不同个案为企业用户匹配数据所遴选出的经验/资源型的律师搭档，形成律师+的双重服务模式。
+                    <div class="dis">审理地区、审判人员、代理人均是造成案件结果不确定性的关键因素，为大幅降低不确定性、提高胜诉率，PreSuit针对不同个案为企业匹配数据所遴选出的经验/资源型的律师搭档，形成律师+的服务团队。
                     </div>
                     
     </div>
@@ -39,18 +41,20 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
 
                      <div class="item-content">
                     <div class="name">诉前多元调解</div>
-                    <div class="dis">诉前诊断更能帮助企业用户及早发现败诉风险较高或支持对方判赔金额较高的案例，对于这类案件我们会提早指导客户利用信息不对称的优势，尽早采用多元调解机制，减少诉讼带来的时间和经济成本。
+                    <div class="dis">PreSuit更能帮助企业及早发现判决结果可能不利的案件并称之为“预警”案件，当触发“预警”案件时我们会首先结合历史数据预判出合理的谈判金额区间并指导客户利用信息不对称的优势，在恰当时机介入多元调解，最大幅度减少诉...&nbsp;&nbsp;<span class="">更多</span>
+                     
                     </div>
+                    <div class="disDetail">PreSuit更能帮助企业及早发现判决结果可能不利的案件并称之为“预警”案件，当触发“预警”案件时我们会首先结合历史数据预判出合理的谈判金额区间并指导客户利用信息不对称的优势，在恰当时机介入多元调解，最大幅度减少诉讼带来的时间和经济成本。</div>
     </div>
 
                 </div>
                 <div class="item">
                     
                      <div class="item-content">
-                    <div class="name">超高服务性价比</div>
-                         <div class="dis">Pre Suit 是全国唯一一家在收取案件代理费前向企业用户提供服务期内无限次的诉前分析服务的专业机构。律师+的服务模式，将业务能力+类案经验+社会资源有优势的律师整合成团队为企业用户争取更丰厚的诉讼效益。对于预警案...&nbsp;&nbsp;<span class="">更多</span>
+                    <div class="name">诉前服务性价比</div>
+                         <div class="dis">对PreSuit而言，一次成功的服务意味着为企业节省了多少诉讼开支，又为企业实现了多少诉讼收益，即诉讼净利润。
                     </div>
-                    <div class="disDetail">Pre Suit 是全国唯一一家在收取案件代理费前向企业用户提供服务期内无限次的诉前分析服务的专业机构。律师+的服务模式，将业务能力+类案经验+社会资源有优势的律师整合成团队为企业用户争取更丰厚的诉讼效益。对于预警案件，帮助企业提早避免诉讼带来 的时间和经济成本，同时辅以早期调解机制，让企业仍可收获价值。对于优质案件，我们可根据客户需要提供诉讼融资服务，意味着 企业前期免于缴纳诉讼费及代理费等。</div>
+                    
                     
                     </div>
                                         <div class="iconfont iconcgfwxjb"></div>
@@ -66,13 +70,13 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         <section class="service">
             <div class="title-box">
                 <div class="title">服务模块</div>
-                <div class="bottom">SERVICE MODULE</div>
+<!--                <div class="bottom">SERVICE MODULE</div>-->
             </div>
             <div class="service-box">
                 <div class="service-item">
                     <div class="icon iconfont icondsj"></div>
                     <div class="title">大数据+诉前量体裁衣</div>
-                    <div class="content">通过对法律数据的清洗、分类及结构化处理，实现了对个案的早期诊断，帮助企业用户超前制定全面的 对抗策略，使其更能从容应对诉讼。</div>
+                    <div class="content">通过对法律数据的清洗、分类及结构化处理，实现了对个案的早期诊断，帮助企业用户超前制定全面的对抗策略，使其更能从容应对诉讼。</div>
                     <a class="sever-btn btn" href="#/serviceSecond">
                       <div>点击查看</div>
                       <div></div>
@@ -82,7 +86,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                 <div class="service-item">
                     <div class="icon iconfont iconjsgx"></div>
                     <div class="title">极速高效常法服务</div>
-                    <div class="content">为了满足企业更多的常规需求，Pre Suit 同样引入了常法顾问服务。但我们更高效、更及时、更能满足您 对每一项需求的期待;此外，我们也将起草律师函、催款函、律师见证等业务明确纳入常法服务的范 畴，有效避免了对用户的二次收费。
+                    <div class="content">为了满足企业更多的常规需求，PreSuit同样引入了常法顾问服务。但我们更高效、更及时、更能满足您对每一项需求的期待；此外，我们也将起草律师函、催款函、律师见证等业务明确纳入常法服务的范畴，有效避免了对企业的二次收费。
                     </div>
                      <a class="sever-btn btn" href="#/service">
                       <div>点击查看</div>
@@ -93,7 +97,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                 <div class="service-item last">
                     <div class="icon iconfont iconssrz"></div>
                     <div class="title">诉讼融资</div>
-                    <div class="content">Pre Suit 通过智能高效的前期案件筛选，为部分案件提供第三方诉讼资助，对企业涉诉案件进行投资，投资款项包括但不限于诉讼费、财产保全费、鉴定费、公告费、评估费等等，使企业实现 0 成本享受诉讼权益。Pre Suit 待客户收到款项后按一定比例收取费用。
+                    <div class="content">PreSuit通过智能高效的前期案件筛选，为部分案件提供第三方资金支持，投资款项包括但不限于诉讼费、财产保全费、鉴定费、公告费、评估费等，使企业实现零成本启动诉讼。
                     </div>
                      <a class="sever-btn btn" href="#/serviceThrid">
                       <div>点击查看</div>
@@ -105,8 +109,8 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         </section>
         <div class="product">
             <div class="title-box">
-                <div class="title">产品特征</div>
-                <div class="bottom">PRODUCT FEATURES</div>
+                <div class="title">诉前.视角</div>
+                <div class="bottom">PreSuit如何看待一场诉讼</div>
             </div>
             <div class="product-box" :class="{active:productActive}">
 
@@ -121,13 +125,13 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c3 big">
-                    <div class="name">智能仪表盘</div>
+                    <div class="name">诉讼收益预测</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c4 big">
-                    <div class="name">诉前资源配置</div>
+                    <div class="name">“无讼”判定</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
@@ -138,25 +142,25 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c6 big">
-                    <div class="name">类案诊断</div>
+                    <div class="name">诉讼预期管理</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c7 big">
-                   <div class="name">大数据分析</div>
+                   <div class="name">诉讼成本控制</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c8 big">
-                    <div class="name">律师plus</div>
+                    <div class="name">败诉风险预警</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c9 big">
-                    <div class="name">私有化存档</div>
+                    <div class="name">第三方资金支持</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
@@ -167,7 +171,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c11 big">
-                    <div class="name">极速常法服务</div>
+                    <div class="name">律师+</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
@@ -178,7 +182,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                     <div class="hex-brick h3"></div>
                 </div>
                 <div class="ge c13 big">
-                    <div class="name">多元调解机制</div>
+                    <div class="name">诉讼/调解</div>
                     <div class="hex-brick h1"></div>
                     <div class="hex-brick h2"></div>
                     <div class="hex-brick h3"></div>
@@ -193,7 +197,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
 
         <section class="ad">
             <div class="title">
-                使每一次的客户体验卓尔不凡
+                诉讼只是过程, PreSuit更追求收益
             </div>
 
 
@@ -754,7 +758,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                 line-height: 32px;
                 font-size: 32px;
                 color: $title-color;
-                margin-bottom: 19px;
+/*                margin-bottom: 19px;*/
                 padding: 0 100px;
                 position: relative;
                 margin-top: 80px;
@@ -790,7 +794,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         .service-box {
             width: 1200px;
             margin: 0 auto;
-            margin-top: 79px;
+            margin-top: 84px;
             height: 480px;
             .service-item {
                 float: left;
@@ -975,9 +979,6 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                 }
                 &:nth-child(3) {
                     padding-top: 50px;
-                }
-                &:nth-child(4) {
-                    padding-top: 50px;
                     &:hover {
                         .disDetail {
                             display: block;
@@ -988,6 +989,10 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                             opacity: 0;
                         }
                     }
+                }
+                &:nth-child(4) {
+                    padding-top: 50px;
+                    
                 }
                 &:nth-child(2n) {
                     .item-content {

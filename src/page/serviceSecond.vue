@@ -26,8 +26,8 @@
              </div>
              <section class="case">
                      <div class="title-box">
-                        <div class="title">使用场景列举</div>
-                        <div class="bottom">Use scene enumeration</div>
+                        <div class="title">使用场景</div>
+<!--                        <div class="bottom">Use scene enumeration</div>-->
                     </div>
                     <div class="caseOne" :class="{active:caseOne}" style="margin-bottom:160px;">
                         <div class="left">
@@ -36,7 +36,7 @@
                                 No.1
                             </div>
                             <div class="tip">类案检索</div>
-                            <div class="case-content">传统检索手段往往会让有价值的案例石沉大海，从而无法帮助用户准确预测案件走势，甚至初期对案件风险作出错误评估。经验表明，相似度越高的案例越有机会影响法官的裁判
+                            <div class="case-content">A公司作为某楼盘的开发商，在竣工交付后因发现建筑物未按图纸施工，将施工单位B公司起诉至法院，涉案标的近人民币2亿元。PreSuit能迅速帮助A公司检索到支持或反对其诉求的类似案例，即至少应满足竣工交付后未按图纸施工的事实情景。传统检索手段往往会让有价值的案例石沉大海，从而无法帮助用户准确预测案件走势，甚至初期对案件风险作出错误评估。经验表明，相似度越高的案例越有机会影响法官的裁判
                             </div>
                             </div>
                         </div>
@@ -51,11 +51,11 @@
                          </div>
                          <div class="right">
                             <div class="case-content-box">
-                             <div class="title">
+                             <div class="title" style="margin-top:0;">
                                 No.2
                             </div>
                             <div class="tip">判赔金额预测</div>
-                            <div class="case-content">Pre Suit 通过将裁判结果中的判赔金额进行提取，可以短时间生成判赔金额的预测分析图表，可以使企业直观的读取近年来的走势、均值、峰值等信息。掌握这些信息，也有助于帮助客户把握最佳的调解时机
+                            <div class="case-content" style="width:469px;">A公司已实际经营多年，某天突然接到政府部分通知，告知其公司所在地恰位于附近正在施工的公路的红线区域内，须立即停业搬迁。A公司因此遭受千万元的经济损失，故拟起诉公路的产权单位B公司进行索赔。侵权索赔案件，判赔结果的不确定性，往往使企业格外担忧。PreSuit通过将裁判结果中的判赔金额进行提取，可以短时间生成判赔金额的预测分析图表，可以使企业直观的读取近年来的走势、均值、峰值等信息。掌握这些信息，也有助于帮助客户把握最佳的调解时机
                             </div>
                             </div>
                          </div>
@@ -69,7 +69,7 @@
                                 No.3
                             </div>
                             <div class="tip">诉前资源优化配置</div>
-                            <div class="case-content">深入调研该案件的审理法院，可能的审判人员构以及被告代理人，在诉讼策略占据优势的基础上，再进一步匹配历史数据显示表现优异的律师同行作为工作伙伴共同完成诉讼，通过早期资源配置，实现诉讼专业+社会资源的高度整合，让客户在 诉讼中处于明显的优势地位
+                            <div class="case-content" style="width:474px">A公司因借款纠纷拟起诉B公司，然而B公司实际是由一个自然人控制的壳公司，现A公司担忧即便案件胜诉也无法通过壳公司获得回款。PreSuit通过前期深入诊断，不会盲目按照客户的思路直接起诉，首先会在诉讼策略上通过寻找关于实际控制人与B公司存在财产混同的证据，将B公司起诉作为连带被告。其次，深入调研该案件的审理法院，可能的审判人员构以及被告代理人，在诉讼策略占据优势的基础上，再进一步匹配历史数据显示表现优异的律师同行作为工作伙伴共同完成诉讼，通过早期资源配置，实现诉讼专业+社会资源的高度整合，让客户在诉讼中处于明显的优势地位。
                             </div>
                              </div>
                         </div>
@@ -87,7 +87,7 @@
                                 No.4
                             </div>
                             <div class="tip">诉前/执行 可行性分析报告</div>
-                            <div class="case-content" style="width:390px;">Pre Suit 开创性的推出了诉前分析报告，通过历史数据多维度的可视化分析，引导客户在复杂环境下做出正确的诉讼决策，避免因盲目诉讼，不仅不达目的，反而遭受更多的经济成本
+                            <div class="case-content" style="width:459px;">PreSuit开创性的推出了诉前分析报告，通过历史数据多维度的可视化分析，引导客户在复杂环境下做出正确的诉讼决策，避免因盲目诉讼，不仅不达目的反而遭受更多的经济成本
                             </div>
                             </div>
                          </div>
@@ -338,7 +338,7 @@
                     .title {
                         font-size: 72px;
                         line-height: 54px;
-                        margin-top: 61px;
+                        margin-top: 6px;
                         color: $main;
                         text-align: left;
                         position: relative;
@@ -348,7 +348,7 @@
                             left: 179px;
                             content: '';
                             display: block;
-                            width: 350px;
+                            width: 450px;
                             height: 1px;
                             background: $main;
                         }
@@ -360,11 +360,12 @@
                         margin-top: 49px;
                     }
                     .case-content {
-                        width: 380px;
+                        width: 465px;
                         margin-top: 28px;
                         font-size: 14px;
+                        text-align: justify;
                         color: #666;
-                        line-height: 35px;
+                        line-height: 34px;
                     }
                 }
                 .right {
@@ -380,7 +381,7 @@
                     @include transitionTime(2s);
                     img {
                         float: right;
-                        width: 746px;
+                        width: 660px;
                         height: 420px;
                     }
                 }
@@ -417,7 +418,7 @@
                     @include transitionTime(2s);
                     img {
                         float: left;
-                        width: 746px;
+                        width: 660px;
                         height: 420px;
                     }
                 }
@@ -447,7 +448,7 @@
                             right: 179px;
                             content: '';
                             display: block;
-                            width: 350px;
+                            width: 450px;
                             height: 1px;
                             background: $main;
                         }
@@ -462,8 +463,9 @@
                         width: 380px;
                         margin-top: 28px;
                         font-size: 14px;
+                        text-align: justify;
                         color: #666;
-                        line-height: 35px;
+                        line-height: 34px;
                     }
                 }
             }

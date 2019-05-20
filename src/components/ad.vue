@@ -1,7 +1,7 @@
 <template>
   <div class="ad">
       <div class="middle">
-         使每一次的客户体验卓尔不凡
+         诉讼只是过程, PreSuit更追求收益
          <button class="btn" @click="btnClick"><div>预约体验PreSuit</div>
                  <div></div>
                  <div>预约体验PreSuit</div></button>

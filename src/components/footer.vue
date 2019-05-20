@@ -4,7 +4,7 @@
          <div class="footer-box">
              <h1 class="logo-box">
                  <a href="" class="logo iconfont iconlogo"></a>
-                 <div class="des">使每一次的客户体验卓尔不凡</div>
+                 <div class="des">诉讼只是过程, PreSuit更追求收益</div>
                  <div class="share">
                      <a class="" href="">
                          <span class="iconfont iconwb"></span>

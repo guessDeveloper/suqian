@@ -24,8 +24,8 @@
                  </section>
                  <section class="case">
                      <div class="title-box">
-                        <div class="title">使用场景列举</div>
-                        <div class="bottom">Use scene enumeration</div>
+                        <div class="title">使用场景</div>
+<!--                        <div class="bottom">Use scene enumeration</div>-->
                     </div>
                     <div class="caseOne" style="margin-bottom:133px;" :class={active:caseOne}>
                         <div class="left">
@@ -33,7 +33,7 @@
                                 No.1
                             </div>
 <!--                            <div class="tip">合规培训沙龙</div>-->
-                            <div class="case-content">企业资金紧缺，但诉讼又迫在眉睫，诉讼融资可以实现企业 0 成本获取诉讼收益。Pre Suit 为您撮合第三方融资
+                            <div class="case-content">企业资金紧缺，但诉讼又迫在眉睫，诉讼融资可以实现企业零成本获取诉讼收益。PreSuit为企业撮合第三方融资
                             </div>
                         </div>
                         <div class="right">
@@ -50,7 +50,7 @@
                                 No.2
                             </div>
 <!--                            <div class="tip">律师+审计+财务咨询联合出具的企业内控风险报告（定制）</div>-->
-                            <div class="case-content">市面上第三方诉讼融资平台正在兴起，然而企业在案件胜诉率方面无法说服投资方，融资形同虚设。Pre Suit 帮您提供全面的案件解析报告
+                            <div class="case-content">市面上第三方诉讼融资平台正在兴起，然而企业在案件胜诉率方面无法说服投资方，融资形同虚设。PreSuit帮企业提供全面的案件分析报告
                             </div>
                          </div>
                     </div>
