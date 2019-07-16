@@ -29,7 +29,10 @@
                 document.documentElement.scrollTop = 0;
                 document.body.scrollTop = 0
             }
-        }
+        },
+        beforeDestroy(){
+             window.removeEventListener('scroll', this.scrollTop, true);
+        },
     }
 
 </script>

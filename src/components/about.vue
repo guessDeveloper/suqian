@@ -8,8 +8,9 @@
                 
             </div>
             <div class="con">
-                 <p>我们曾服务大量的企业，并专门花精力解决他们复杂、疑难且标的额较高的商业纠纷。过往的诉讼业绩形成了我们当下的行业竞争力。历史的经验告诉我们，重大诉讼通常会影响一个企业的生命周期，有时一个失败的诉讼决策可以令企业的财富积累一夜间付之东流。所以，我们认为，诉讼决策同企业其他经济决策同等重要。</p>
- <p>大多数企业家虽然看中诉讼的结果，但却对诉讼本身没有足够的信心。始终认为诉讼充满了太多无法把控的不确定性。然而，这种不确定性仍然可以通过有效的方法和技术手段来降低，从而提高企业的诉讼取胜概率。并且，这套方法和技术手段是应该让企业在诉前知晓，并且基于此结论做出诉讼决策。因此，我们决定用匠人的精神，把服务聚焦在诉前每一个专业的细节上。于是，便有了“PreSuit诉前”的今天。</p>
+                 <p>一直以来，我们始终面向企业客户提供专业的法律服务并专门花精力解决他们复杂、疑难且标的额较高的商业纠纷。过往的诉讼业绩形成了我们当下的行业竞争力。历史的经验告诉我们，重大诉讼通常会影响一个企业的生命周期，有时一个失败的诉讼决策可以令企业的财富积累一夜间付之东流。所以，我们坚信：诉讼决策与企业其他的经济决策同等重要。</p>
+ <p>大多数企业家虽然看中诉讼结果，但却对诉讼本身没有足够的信心，始终认为诉讼充满了太多无法把控的不确定性。然而，这种不确定性事实上是可以通过方法和技术手段有效降低的，从而大幅提高企业的胜诉率。并且，这套方法和技术是可以被企业充分利用，从而有效避免诉讼初期采用了错误的诉讼策略。</p>
+           <p> 因此，对企业而言，把法律服务延伸至诉前的诸多细节上是极具价值的。于是，便有了“PreSuit诉前”。</p>
             </div>
             <div class="close-btn iconfont iconx" @click="hide()"></div>
         </div>
@@ -160,7 +161,7 @@
         background: $about-bc;
         z-index: 2000;
         &.show {
-           display: block;
+            display: block;
         }
         .about-waves {
             width: 100%;
@@ -177,14 +178,12 @@
             margin-top: -205px;
             width: 640px;
             height: 490px;
-/*            background: #fff;*/
+            /*            background: #fff;*/
             text-align: center;
             @include transition;
             &.move {
-                
-                    opacity: 1;
-                    margin-top: -245px;
-                
+                opacity: 1;
+                margin-top: -245px;
             }
             .close-btn {
                 position: absolute;
@@ -192,7 +191,7 @@
                 right: 0;
                 width: 40px;
                 height: 40px;
-                color:#fff;
+                color: #fff;
                 line-height: 40px;
                 background: $main;
                 cursor: pointer;
@@ -241,7 +240,7 @@
                 width: 632px;
                 height: 320px;
                 line-height: 35px;
-                color:#fff;
+                color: #fff;
                 text-indent: 30px;
                 text-align: justify;
                 font-size: 14px;

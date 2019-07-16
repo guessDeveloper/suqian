@@ -1,13 +1,13 @@
 <template>
 <div class="page">
     <navBar :isActive="notTop" ref="nav" :activeIndex = '0'></navBar>
-    <BannerBar @btn="contactShow"></BannerBar>
+   
     <contact ref="contact"></contact>
 
     <div class="page-content">
        <section class="special">
            <div class="title-box">
-                <div class="title">Pre Suit正在为越来越多的企业用户提供<br>含数据支持的最优诉前决策，实现诉讼净利润</div>
+                <div class="title">PreSuit正在使用含数据支持的诉前决策<br>帮助越来越多的企业实现诉讼净利润</div>
 <!--
                 <div class="bottom">Pre Suit is providing data support for more and more enterprise users<br>
 Optimal pre-trial decision-making to achieve litigation net profit</div>
@@ -85,8 +85,8 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                 </div>
                 <div class="service-item">
                     <div class="icon iconfont iconjsgx"></div>
-                    <div class="title">极速高效常法服务</div>
-                    <div class="content">为了满足企业更多的常规需求，PreSuit同样引入了常法顾问服务。但我们更高效、更及时、更能满足您对每一项需求的期待；此外，我们也将起草律师函、催款函、律师见证等业务明确纳入常法服务的范畴，有效避免了对企业的二次收费。
+                    <div class="title">法财税一体化常法服务</div>
+                    <div class="content">为了满足企业更多的常规需求，PreSuit同样引入了常法顾问服务，但我们更高效、更及时、更能满足企业对每一项需求的期待。更重要的是，PreSuit将企业税务问题作为常法服务的重点。
                     </div>
                      <a class="sever-btn btn" href="#/service">
                       <div>点击查看</div>
@@ -109,7 +109,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         </section>
         <div class="product">
             <div class="title-box">
-                <div class="title">诉前.视角</div>
+                <div class="title">诉前<span class='point'></span>视角</div>
                 <div class="bottom">PreSuit如何看待一场诉讼</div>
             </div>
             <div class="product-box" :class="{active:productActive}">
@@ -194,10 +194,11 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
             </div>
         </div>
 
-
+         
+    
         <section class="ad">
             <div class="title">
-                诉讼只是过程, PreSuit更追求收益
+                诉讼不只是过程，PreSuit更追求收益
             </div>
 
 
@@ -210,7 +211,9 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
 
         <foot @contact="aboutShow"></foot>
         <top></top>
+        <BannerBar @btn="contactShow"></BannerBar>
     </div>
+        
 
 </div>
 </template>
@@ -528,6 +531,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         height: 842px;
         text-align: center;
         position: relative;
+        z-index: 200;
         background: url(../assets/image/cptz-bc.png) no-repeat center bottom;
         @include backSize(100%);
         background-color: #fff;
@@ -580,6 +584,16 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                     width: 80px;
                     height: 2px;
                     background: $title-color;
+                }
+                .point{
+                    display: inline-block;
+                    width:4px;
+                    height:4px;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                    margin:0 4px;
+                    background:$title-color;
+                    
                 }
             }
             .bottom {
@@ -683,57 +697,57 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
             .c3 {
                 left: 216px;
                 top: 124px;
-                @include transitionDelay(.2s);
+                @include transitionDelay(.15s);
             }
             .c4 {
                 top: 249px;
                 left: 144px;
-                @include transitionDelay(.3s);
+                @include transitionDelay(.2s);
             }
             .c5 {
                 top: 124px;
                 left: 359px;
-                @include transitionDelay(.4s);
+                @include transitionDelay(.25s);
             }
             .c6 {
                 top: 0;
                 left: 431px;
-                @include transitionDelay(.5s);
+                @include transitionDelay(.3s);
             }
             .c7 {
                 top: 0;
                 left: 575px;
-                @include transitionDelay(.6s);
+                @include transitionDelay(.35s);
             }
             .c8 {
                 top: 249px;
                 left: 431px;
-                @include transitionDelay(.7s);
+                @include transitionDelay(.4s);
             }
             .c9 {
                 top: 249px;
                 left: 575px;
-                @include transitionDelay(.8s);
+                @include transitionDelay(.45s);
             }
             .c10 {
                 top: 249px;
                 left: 719px;
-                @include transitionDelay(.9s);
+                @include transitionDelay(.5s);
             }
             .c11 {
                 top: 124px;
                 left: 791px;
-                @include transitionDelay(1s);
+                @include transitionDelay(.55s);
             }
             .c12 {
                 top: 124px;
                 left: 935px;
-                @include transitionDelay(1.1s);
+                @include transitionDelay(.6s);
             }
             .c13 {
                 top: 374px;
                 left: 359px;
-                @include transitionDelay(1.2s);
+                @include transitionDelay(.65s);
             }
         }
     }
@@ -745,6 +759,8 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         width: 100%;
         min-width: $min-width;
         height: 800px;
+        position: relative;
+        z-index: 200;
         background: url(../assets/image/fuwu-bj.jpg) no-repeat center bottom;
         @include backSize(cover);
         -webkit-background-attachment: fixed;
@@ -796,6 +812,10 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
             margin: 0 auto;
             margin-top: 84px;
             height: 480px;
+            z-index: 200;
+            position: relative;
+            z-index: 200;
+           
             .service-item {
                 float: left;
                 width: 355px;
@@ -864,6 +884,8 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         height: 350px;
         overflow: hidden;
         /*        float:left;*/
+        z-index: 200;
+        position: relative;
         background: url(../assets/image/fuwu.jpg) no-repeat center center;
         @include backSize(cover);
         .title {
@@ -890,6 +912,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         background: #fff;
         overflow: hidden;
         position: relative;
+        z-index: 200;
         .canvas-box{
             position: absolute;
             width:100%;

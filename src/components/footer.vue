@@ -4,7 +4,7 @@
          <div class="footer-box">
              <h1 class="logo-box">
                  <a href="" class="logo iconfont iconlogo"></a>
-                 <div class="des">诉讼只是过程, PreSuit更追求收益</div>
+                 <div class="des">诉讼不只是过程，PreSuit更追求收益</div>
                  <div class="share">
                      <a class="" href="">
                          <span class="iconfont iconwb"></span>
@@ -189,6 +189,8 @@
 </script>
 <style scoped="true" lang="scss">
     footer {
+        position: relative;
+        z-index: 200;
         .footer-band {
                 width: 100%;
                 height: 79px;

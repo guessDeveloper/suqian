@@ -40,7 +40,7 @@
                         name: '大数据+诉前量体裁衣',
                         link: '/serviceSecond'
                     }, {
-                        name: '极速高效常法服务',
+                        name: '法财税一体化常法服务',
                         link: "/service"
                     }, 
                             {

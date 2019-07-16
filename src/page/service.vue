@@ -11,10 +11,10 @@
                      </div>
                      <div class="right">
                           <div class="title">
-                              <div class="title-top">极速高效常法服务</div>
-                              <div class="title-bottom">EXTREMELY FAST, EFFICIENT ADN EFFICIENT SERVICE</div>
+                              <div class="title-top">法财税一体化常法服务</div>
+                              <div class="title-bottom">Tax Issues Involved Legal Counseling</div>
                           </div>
-                          <div class="cont">为了满足企业更多的常规需求，PreSuit同样引入了常法顾问服务。但我们更高效、更及时、更能满足您对每一项需求的期待；此外，我们也将起草律师函、催款函、律师见证等业务明确纳入常法服务的范畴，有效避免了对企业的二次收费。
+                          <div class="cont">PreSuit用力冲破传统法律服务边界，直击企业刚需，开创性地吸收并整合了税务专家作为长期合作伙伴。作为企业的常法顾问，PreSuit借助专业嗅觉随时帮助企业更早发现值得筹划的问题，并与税务专家强强联合为企业共同制定行之有效的解决方案。
                           </div>
                           <button class="btn" @click="contactShow"><div>预约体验PreSuit</div>
                  <div></div>
@@ -31,12 +31,12 @@
                             <div class="title">
                                 No.1
                             </div>
-                            <div class="tip">合同审阅</div>
-                            <div class="case-content">PreSuit应用了标准化的合同审批流程，为企业定制标准化合同模版；对企业提供的非标合同，则从风险类型和风险等级明确提供专业修改意见
+                            <div class="tip">涉税服务</div>
+                            <div class="case-content">PreSuit以税为切入点，致力于为企业用户提供可价值量化的常法服务，从此告别“顾”而“不问”的黯淡历史。通过为企业合理节省税负，优化企业利润。
                             </div>
                         </div>
                         <div class="right">
-                            <img src="../assets/image/service22@2x.jpg" alt="">
+                            <img src="../assets/image/service22@2x.png" alt="">
                         </div>
                         
                     </div>
@@ -48,8 +48,8 @@
                              <div class="title">
                                 No.2
                             </div>
-                            <div class="tip">法律咨询</div>
-                            <div class="case-content" style="width:387px;">PreSuit认真对待企业用户的每一次提问，为保证回复的高效性，我们承诺普通咨询2小时内回复、疑难咨询24小时内回复；为保证回复的准确度，我们持续整合公司法、劳动法、税法、侵权等领域的专家
+                            <div class="tip">合同审阅/法律咨询</div>
+                            <div class="case-content" style="width:387px;">PreSuit应用了标准化的合同审批流程，为企业定制标准化合同模版；对企业提供的非标合同，则从风险类型和风险等级明确提供专业修改意见。同时，PreSuit认真对待企业用户的每一次提问，为保证回复的高效性，我们承诺普通咨询2小时内回复，疑难咨询24小时内回复。
                             </div>
                          </div>
                     </div>
@@ -59,7 +59,7 @@
                                 No.3
                             </div>
                             <div class="tip">客户资料私有化存档</div>
-                            <div class="case-content">服务期内产生的所有用户数据，都将为PreSuit高度珍视。我们将企业资料妥善保管，记录企业成长轨迹，便于企业随时查看；同时我们不断通过累积的数据挖掘出企业所在行业/地区的高频风险点，定时向企业推送有关的法律资讯
+                            <div class="case-content">服务期内产生的所有用户数据，都将为PreSuit高度珍视。我们将企业资料妥善保管，记录企业成长轨迹，便于企业随时查看；同时我们不断通过累积的数据挖掘出企业所在行业/地区的高频风险点，定时向企业推送有关的法律资讯。
                             </div>
                         </div>
                         <div class="right">
@@ -92,12 +92,12 @@
             }
         },
         mounted() {
-            
-            window.addEventListener('scroll', this.haldscroll, true);
+
+ window.addEventListener('scroll', this.haldscroll, true);
             let _this = this;
-           $(document).ready(function(){
-               _this.$refs.loading.hide();
-           })
+            $(document).ready(function() {
+                _this.$refs.loading.hide();
+            })
         },
         methods: {
             contactShow() {
@@ -116,6 +116,7 @@
                 }
                 if (t > 1900) {
                     this.caseThree = true;
+                    window.removeEventListener('scroll', this.haldscroll, true);
                 }
 
             }
@@ -222,6 +223,7 @@
                             color: #E2E2E2;
                             line-height: 18px;
                             margin-top: 24px;
+                            /*                            text-transform: uppercase;*/
                         }
                     }
                     .cont {

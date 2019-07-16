@@ -22,15 +22,15 @@
 
                 bannerList: [{
                     top: '大数据+诉前量体裁衣',
-                    bottom: 'Big data + pre-litigation tailoring',
+                    bottom: 'Data Retrieval + Pre Suit Tactics',
                     imageUrl: require("../assets/image/banner1@2x.jpg")
                 }, {
-                    top: '极速高效常法服务',
-                    bottom: 'Extremely fast, efficient and efficient service',
+                    top: '法财税一体化常法服务',
+                    bottom: 'Tax Issues Involved Legal Counseling',
                     imageUrl: require("../assets/image/banner2@2x.jpg")
                 }, {
                     top: '诉讼融资',
-                    bottom: 'Litigation financing',
+                    bottom: 'Lawsuit Funding',
                     imageUrl: require("../assets/image/banner3@2x.jpg")
                 }]
             }
@@ -218,7 +218,7 @@
                     color: #fff;
                 }
                 .bottom {
-                    text-transform: uppercase;
+/*                    text-transform: uppercase;*/
                     font-size: 24px;
                     line-height: 24px;
                     margin-top: 19px;

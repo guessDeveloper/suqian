@@ -12,9 +12,9 @@
                      <div class="right">
                           <div class="title">
                               <div class="title-top">诉讼融资</div>
-                              <div class="title-bottom">Litigation financing</div>
+                              <div class="title-bottom">Lawsuit Funding</div>
                           </div>
-                          <div class="cont">PreSuit 通过智能高效的前期案件筛选，为部分案件提供第三方诉讼资助，对企业涉诉案件进行投资，投资款项包括但不限于诉讼费、财产保全费、鉴定费、公告费、评估费等等，使企业实现 0 成本享受诉讼权益。PreSuit 待客户收到款项后按一定比例收取费用。
+                          <div class="cont">PreSuit通过智能高效的前期案件筛选，为部分案件提供第三方资金支持，投资款项包括但不限于诉讼费、财产保全费、鉴定费、公告费、评估费等，使企业实现零成本启动诉讼。
                           <p>(该服务仅面向已购买第一或第二项服务的用户开放)</p>
                           </div>
                           <button class="btn" @click="contactShow"><div>预约体验PreSuit</div>
@@ -33,7 +33,7 @@
                                 No.1
                             </div>
 <!--                            <div class="tip">合规培训沙龙</div>-->
-                            <div class="case-content">企业资金紧缺，但诉讼又迫在眉睫，诉讼融资可以实现企业零成本获取诉讼收益。PreSuit为企业撮合第三方融资
+                            <div class="case-content">企业资金紧缺，但诉讼又迫在眉睫，诉讼融资可以实现企业零成本获取诉讼收益。PreSuit为企业撮合第三方融资。
                             </div>
                         </div>
                         <div class="right">
@@ -50,7 +50,7 @@
                                 No.2
                             </div>
 <!--                            <div class="tip">律师+审计+财务咨询联合出具的企业内控风险报告（定制）</div>-->
-                            <div class="case-content">市面上第三方诉讼融资平台正在兴起，然而企业在案件胜诉率方面无法说服投资方，融资形同虚设。PreSuit帮企业提供全面的案件分析报告
+                            <div class="case-content">市面上第三方诉讼融资平台正在兴起，然而企业在案件胜诉率方面无法说服投资方，融资形同虚设。PreSuit帮企业提供全面的案件分析报告。
                             </div>
                          </div>
                     </div>
@@ -168,7 +168,7 @@
                         .title-bottom {
                             font-size: 18px;
                             color: #E2E2E2;
-                            text-transform: uppercase;
+/*                            text-transform: uppercase;*/
                             line-height: 18px;
                             margin-top: 24px;
                         }

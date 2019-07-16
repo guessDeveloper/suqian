@@ -1,7 +1,7 @@
 <template>
   <div class="ad">
       <div class="middle">
-         诉讼只是过程, PreSuit更追求收益
+         诉讼不只是过程，PreSuit更追求收益
          <button class="btn" @click="btnClick"><div>预约体验PreSuit</div>
                  <div></div>
                  <div>预约体验PreSuit</div></button>
@@ -29,6 +29,8 @@
     .ad {
         width: 100%;
         min-width: $min-width;
+        position: relative;
+        z-index: 200;
         border-top: 1px solid rgba(0, 0, 0, .1);
         .middle {
             width: $min-width;
