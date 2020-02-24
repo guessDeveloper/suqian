@@ -76,7 +76,7 @@
          <div class="waves"></div> 
          </div>
          <div class="footer-band">
-                 Copyright  2019 itsylec.com | 京ICP备19020572号-1
+                 Copyright  2019 itsylec.com | <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备19020572号-1</a>
          </div>
      </footer>
 </template>
@@ -200,6 +200,10 @@
                 font-size: 12px;
                 color: #EEEEEE;
             text-align: center;
+            a{
+               color: #EEEEEE;
+                font-size: 12px;
+            }
             }
         .footer-bigbox {
             width: 100%;

@@ -97,7 +97,7 @@
         </div>
         <ad @btn="contactShow"></ad>
         <foot @contact="aboutShow"></foot>
-         <top></top>
+        <top :show="showBackTop"></top>
          <loading ref="loading"></loading>
     </div>
 </template>
@@ -116,6 +116,7 @@
                 caseTwo: false,
                 caseThree: false,
                 caseFour: false,
+                 showBackTop:false
             }
         },
         mounted() {
@@ -145,6 +146,11 @@
                 }
                 if (t > 2400) {
                     this.caseFour = true;
+                }
+                if(t>300){
+                    this.showBackTop = true;
+                }else{
+                    this.showBackTop = false;
                 }
             }
         },

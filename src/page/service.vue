@@ -71,7 +71,7 @@
         </div>
         <ad @btn="contactShow"></ad>
         <foot @contact="aboutShow"></foot>
-         <top></top>
+         <top :show="showBackTop"></top>
          <loading ref="loading"></loading>
     </div>
 </template>
@@ -88,7 +88,8 @@
             return {
                 caseOne: false,
                 caseTwo: false,
-                caseThree: false
+                caseThree: false,
+                 showBackTop:false
             }
         },
         mounted() {
@@ -110,6 +111,11 @@
                 var t = document.documentElement.scrollTop || document.body.scrollTop;
                 if (t > 900) {
                     this.caseOne = true;
+                }
+                if(t>300){
+                    this.showBackTop = true;
+                }else{
+                    this.showBackTop = false;
                 }
                 if (t > 1400) {
                     this.caseTwo = true;

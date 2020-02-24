@@ -10,28 +10,33 @@
     export default {
         data() {
             return {
-               show:false
+               
             }
         },
         mounted(){
-             window.addEventListener('scroll', this.scrollTop, true);
+//             window.addEventListener('scroll', this.scrollTop, true);
+        },
+        props:{
+            show:{
+                defalut:false
+            }
         },
         methods:{
-            scrollTop(){
-                var t = document.documentElement.scrollTop || document.body.scrollTop;
-                if(t>300){
-                    this.show = true;
-                }else{
-                    this.show = false;
-                }
-            },
+//            scrollTop(){
+//                var t = document.documentElement.scrollTop || document.body.scrollTop;
+//                if(t>300){
+//                    this.show = true;
+//                }else{
+//                    this.show = false;
+//                }
+//            },
             scrollTo(){
                 document.documentElement.scrollTop = 0;
                 document.body.scrollTop = 0
             }
         },
         beforeDestroy(){
-             window.removeEventListener('scroll', this.scrollTop, true);
+//             window.removeEventListener('scroll', this.scrollTop, true);
         },
     }
 

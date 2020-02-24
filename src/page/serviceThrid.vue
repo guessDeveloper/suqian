@@ -60,7 +60,7 @@
         </div>
         <ad @btn="contactShow"></ad>
         <foot @contact="aboutShow"></foot>
-         <top></top>
+        <top :show="showBackTop"></top>
          <loading ref="loading"></loading>
     </div>
 </template>
@@ -76,7 +76,8 @@
         data() {
             return {
                 caseOne: false,
-                caseTwo: false
+                caseTwo: false,
+                 showBackTop:false
             }
         },
         mounted() {
@@ -100,6 +101,11 @@
                 }
                 if (t > 1400) {
                     this.caseTwo = true;
+                }
+                 if(t>300){
+                    this.showBackTop = true;
+                }else{
+                    this.showBackTop = false;
                 }
 
             }

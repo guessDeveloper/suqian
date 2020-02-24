@@ -210,7 +210,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
         </section>
 
         <foot @contact="aboutShow"></foot>
-        <top></top>
+        <top :show="showBackTop"></top>
         <BannerBar @btn="contactShow"></BannerBar>
     </div>
         
@@ -229,6 +229,7 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
             return {
                 notTop: false,
                 productActive: false,
+                showBackTop:false
             }
         },
         mounted() {
@@ -486,6 +487,11 @@ Optimal pre-trial decision-making to achieve litigation net profit</div>
                     this.notTop = true;
                 } else {
                     this.notTop = false;
+                }
+                if(t>300){
+                    this.showBackTop = true;
+                }else{
+                    this.showBackTop = false;
                 }
                 if (t > document.querySelector('.product').offsetTop + 500) {
                     //                    console.log(document.querySelector('.product').offsetTop)
